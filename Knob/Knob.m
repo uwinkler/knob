@@ -173,7 +173,8 @@ double radians(double degrees) {
     
 
     self.angle = [self angleFromCenter:location];
-    
+
+//    [self setNeedsDisplay];
     
     if(recognizer.state == UIGestureRecognizerStateEnded) {
         self.angle = [self getClosedSegemntCenterAngle];
