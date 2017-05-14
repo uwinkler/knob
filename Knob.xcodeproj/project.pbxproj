@@ -13,6 +13,7 @@
 		D67C9B6F1EC72E1200FD4A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67C9B6D1EC72E1200FD4A76 /* Main.storyboard */; };
 		D67C9B711EC72E1200FD4A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67C9B701EC72E1200FD4A76 /* Assets.xcassets */; };
 		D67C9B741EC72E1200FD4A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67C9B721EC72E1200FD4A76 /* LaunchScreen.storyboard */; };
+		D67C9B7D1EC72E5500FD4A76 /* Knob.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C9B7C1EC72E5500FD4A76 /* Knob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D67C9B701EC72E1200FD4A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D67C9B731EC72E1200FD4A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D67C9B751EC72E1200FD4A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67C9B7B1EC72E5500FD4A76 /* Knob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Knob.h; sourceTree = "<group>"; };
+		D67C9B7C1EC72E5500FD4A76 /* Knob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Knob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				D67C9B6A1EC72E1200FD4A76 /* ViewController.h */,
 				D67C9B6B1EC72E1200FD4A76 /* ViewController.m */,
 				D67C9B6D1EC72E1200FD4A76 /* Main.storyboard */,
+				D67C9B7B1EC72E5500FD4A76 /* Knob.h */,
+				D67C9B7C1EC72E5500FD4A76 /* Knob.m */,
 				D67C9B701EC72E1200FD4A76 /* Assets.xcassets */,
 				D67C9B721EC72E1200FD4A76 /* LaunchScreen.storyboard */,
 				D67C9B751EC72E1200FD4A76 /* Info.plist */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					D67C9B601EC72E1200FD4A76 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5EY3T8XSUN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,6 +159,7 @@
 				D67C9B6C1EC72E1200FD4A76 /* ViewController.m in Sources */,
 				D67C9B691EC72E1200FD4A76 /* AppDelegate.m in Sources */,
 				D67C9B661EC72E1200FD4A76 /* main.m in Sources */,
+				D67C9B7D1EC72E5500FD4A76 /* Knob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EY3T8XSUN;
 				INFOPLIST_FILE = Knob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.kodira.Knob;
@@ -283,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EY3T8XSUN;
 				INFOPLIST_FILE = Knob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.kodira.Knob;
